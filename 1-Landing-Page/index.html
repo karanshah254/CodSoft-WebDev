@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SmartWatch - LandingPage</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a2291e6430.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="icon"
+        href="data:image/png;base64,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">
+</head>
+
+<body>
+    <div class="container">
+        <header class="nav" id="and_menor">
+
+            <div class="nav-container-content">
+                <nav class="navbar">
+                    <a href="#">Home</a>
+                    <a href="https://g.co/kgs/VgwRa6" target="_blank">About</a>
+                    <a href="https://www.apple.com/in/store?afid=p238%7CsdUuvv563-dc_mtid_187079nc38483_pcrid_664737674837_pgrid_109516736379_pntwk_g_pchan__pexid__&cid=aos-IN-kwgo-brand--slid---product-"
+                        target="_blank">Products</a>
+                    <a href="https://www.apple.com/in/shop/buy-watch" target="_blank">Buy Now</a>
+                </nav>
+            </div>
+
+        </header>
+
+        <div class="section-container-items">
+            <div class="section-items-col-12">
+                <div class="section">
+                    <h1>Apple Mercury SmartWatch</h1>
+                    <h3>Altimeter, Gyroscope, GPS, Heart Rate Monitor</h3>
+                    <a href="#"><button><i class="fas fa-shopping-cart"></i>Buy now for Rs.2499</button></a>
+                </div>
+
+                <div class="alta">
+                    <span class="alta-title">Find Yours</span>
+                    <img
+                        src="https://static-geektopia.com/storage/geek/products/fitbit/versa/versa-black-black-aluminum-0-4d70f54ede557d65061a77d521339857.png">
+
+                </div>
+            </div>
+
+            <footer id="person">
+                <marquee>
+                    &copy; Created by<a href="https://karanshah254.github.io/freeCodeCamp-WEBDEV/PortfolioProject/" target="_blank"> Karan Shah
+                    </a>
+                </marquee>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
